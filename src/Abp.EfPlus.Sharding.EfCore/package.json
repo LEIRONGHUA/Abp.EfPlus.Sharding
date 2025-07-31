@@ -1,0 +1,21 @@
+{
+  "name": "abp.efplus.sharding.efcore",
+  "version": "1.0.0",
+  "description": "https://learn.microsoft.com/zh-cn/ef/core/cli/dotnet",
+  "main": "index.js",
+  "scripts": {
+    "dotnet-ef:install": "dotnet tool install --global dotnet-ef",
+    "dotnet-ef:update": "dotnet tool update --global dotnet-ef",
+    "migrations:add": "dotnet ef migrations add Init --verbose",
+    "migrations:remove": "dotnet ef migrations remove --verbose",
+    "migrations:script": "dotnet ef migrations script xxx --output ./Migrations/MigrationsScript.sql --verbose --idempotent",
+    "migrations:script:rollback": "dotnet ef migrations script xxx yyy --output ./Migrations/MigrationsScript-Rollback.sql --verbose --idempotent",
+    "database:update": "dotnet ef  database update --verbose --prefix-output",
+    "database:update:rollback": "dotnet ef database update xxx --verbose --prefix-output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LEIRONGHUA/Abp.EfPlus.Sharding.git"
+  },
+  "private": true
+}
