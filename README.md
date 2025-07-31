@@ -1,0 +1,1 @@
+This project is a project that integrates [Abp](https://github.com/abpframework/abp) 、 [EntityFramework-Plus](https://github.com/zzzprojects/EntityFramework-Plus) and [sharding-core](https://github.com/dotnetcore/sharding-core) to reproduce the problem [issues #831](https://github.com/zzzprojects/EntityFramework-Plus/issues/831)
